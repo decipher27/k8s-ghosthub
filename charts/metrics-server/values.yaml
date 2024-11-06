@@ -11,7 +11,7 @@ image:
 imagePullSecrets: []
 # - name: registrySecretName
 
-nameOverride: ""
+nameOverride: kube-system
 fullnameOverride: ""
 
 serviceAccount:
