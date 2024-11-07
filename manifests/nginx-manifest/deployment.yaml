@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: your-registry/nginx:beta-v1.0.0
           ports:
             - containerPort: 80
           volumeMounts:
